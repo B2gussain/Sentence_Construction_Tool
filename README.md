@@ -30,5 +30,5 @@ Welcome to the Sentence Construction Tool! This is a React-based web application
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/Sentence_Construction_Tool.git
+   git clone [https://github.com/your-username/Sentence_Construction_Tool.git](https://github.com/B2gussain/Sentence_Construction_Tool.git)
    cd Sentence_Construction_Tool
