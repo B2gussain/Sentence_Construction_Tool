@@ -119,7 +119,7 @@ function QuestionCard({ question, onComplete, onQuit, questionNumber, totalQuest
 
   return (
     <div className="bg-white pb-[50px] p-6 relative rounded-xl shadow-lg w-full max-w-2xl mx-auto">
-      /* Timer and Buttons */
+       
       <div className="flex justify-between items-center mb-6">
         <span className={`text-[16px] font-bold ${timerColor}`}>
           Time Left: {timeLeft}s
@@ -140,12 +140,12 @@ function QuestionCard({ question, onComplete, onQuit, questionNumber, totalQuest
         </div>
       </div>
 
-      /* Sentence */
+      
       <div className="mb-8 text-lg font-medium flex flex-wrap text-wrap gap-1 leading-relaxed">
         {renderSentence()}
       </div>
 
-      /* Options */
+      
       <div className="grid grid-cols-2 gap-4 mb-8">
         {availableOptions.map((option, index) => (
           <button
@@ -159,7 +159,7 @@ function QuestionCard({ question, onComplete, onQuit, questionNumber, totalQuest
         ))}
       </div>
 
-      /* Next button */
+      
       <button
         onClick={handleNextClick}
         disabled={!selectedWords.every(word => word !== null)}
@@ -168,7 +168,7 @@ function QuestionCard({ question, onComplete, onQuit, questionNumber, totalQuest
         →
       </button>
 
-      /* Quit Confirmation Alert */
+      
       {showQuitConfirm && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-[10px] p-6 w-[90%] max-w-[400px] text-center shadow-lg">
