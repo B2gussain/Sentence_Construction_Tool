@@ -98,7 +98,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact
 -------
 - Author: B2gussain
-- Email: (Provide your email if desired, e.g., b2gussain@example.com)
+- Email: (Provide your email if desired, e.g., bittubgussain@gmail.com)
 - GitHub: https://github.com/B2gussain
 
 Feel free to reach out with questions or suggestions!
